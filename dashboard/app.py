@@ -919,6 +919,8 @@ def update_dashboard(countries, start_date, end_date, segment, basket):
     f10 = style_fig(f10).update_layout(height=380, uniformtext_minsize=10, legend=dict(orientation='v', x=1.05), margin=dict(r=120, t=50, b=60, l=60))
 
     return kpi_rev, kpi_ord, kpi_cus, kpi_avg, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10
+    
+server = app.server
 
 if __name__ == '__main__':
     print('running dash..')

@@ -1,0 +1,159 @@
+/* dropdown trigger button */
+button.dash-dropdown {
+    background-color: #2a2a2a !important;
+    color: #EEEEEE !important;
+    border: 1px solid #444444 !important;
+    border-radius: 6px !important;
+}
+
+button.dash-dropdown span {
+    color: #EEEEEE !important;
+}
+
+/* dropdown content portal */
+.dash-dropdown-content {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444444 !important;
+    border-radius: 6px !important;
+    color: #EEEEEE !important;
+}
+
+/* search input */
+.dash-dropdown-content input,
+input.dash-dropdown-search {
+    background-color: #1e1e1e !important;
+    color: #EEEEEE !important;
+    border: 1px solid #444444 !important;
+    border-radius: 4px !important;
+}
+
+/* select all / deselect all bar */
+.dash-dropdown-content div,
+.dash-dropdown-content button {
+    background-color: #2a2a2a !important;
+    color: #EEEEEE !important;
+}
+
+/* action buttons text */
+button.dash-dropdown-action-button,
+.dash-dropdown-content a {
+    color: #F5A623 !important;
+    background-color: transparent !important;
+}
+
+/* options */
+.dash-dropdown-options {
+    background-color: #2a2a2a !important;
+}
+
+.dash-dropdown-options label,
+.dash-dropdown-options span {
+    color: #EEEEEE !important;
+}
+
+/* clear button */
+button.dash-dropdown-clear {
+    color: #a3a3a3 !important;
+}
+
+
+/* ----- NEW DATE PICKER CLASSES (Dash 4.x/3.x) ----- */
+[id^="filter-date"] {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444444 !important;
+    border-radius: 6px !important;
+}
+
+.dash-datepicker-input,
+.dash-input-element,
+[class*="dash-datepicker-input"] {
+    background-color: #2a2a2a !important;
+    color: #EEEEEE !important;
+    border: none !important;
+}
+
+/* The actual calendar popup */
+.DateRangePicker_picker,
+.DayPicker,
+.CalendarMonthGrid,
+.CalendarMonth,
+.CalendarDay,
+[class*="DayPicker"],
+[class*="CalendarMonth"],
+[class*="CalendarDay"],
+.dash-datepicker,
+[class*="dash-datepicker"] {
+    background-color: #1a1a1a !important;
+    background: #1a1a1a !important;
+    color: #EEEEEE !important;
+    border-color: #444444 !important;
+}
+
+.CalendarDay__default {
+    background: #1a1a1a !important;
+    background-color: #1a1a1a !important;
+    color: #EEEEEE !important;
+    border: 1px solid #333333 !important;
+}
+.CalendarDay__default:hover {
+    background: #444444 !important;
+    background-color: #444444 !important;
+    color: #F5A623 !important;
+}
+.CalendarDay__selected,
+.CalendarDay__selected:hover,
+[class*="selected"] {
+    background: #F5A623 !important;
+    background-color: #F5A623 !important;
+    color: #121212 !important;
+}
+
+.CalendarDay__blocked_out_of_range {
+    background: #0a0a0a !important;
+    color: #555555 !important;
+}
+
+.DayPickerNavigation_button__default,
+[class*="DayPickerNavigation"] {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444444 !important;
+}
+
+/* Month headers and day of week headers */
+.DayPicker_weekHeader,
+.DayPicker_weekHeader_li,
+[class*="DayPicker_weekHeader"],
+.CalendarMonth_caption,
+[class*="CalendarMonth_caption"],
+th,
+small {
+    color: #F5A623 !important;
+}
+
+/* Also apply to any div nested inside the datepicker container to catch portals/popups */
+#filter-date div {
+    background-color: transparent; 
+}
+#filter-date .DateRangePicker_picker div,
+#filter-date .dash-datepicker div {
+    background-color: #1a1a1a;
+    color: #EEEEEE;
+}
+
+/* Fix year increment/decrement buttons */
+#filter-date button,
+.dash-datepicker button {
+    background-color: #2a2a2a !important;
+    color: #EEEEEE !important;
+    border: 1px solid #444444 !important;
+}
+
+
+/* ----- footer fix ----- */
+.dashboard-footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9990 !important;
+}
